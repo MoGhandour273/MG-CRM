@@ -719,6 +719,7 @@ padding: 1rem;
 
 .small-list-page .small-list-page-li {
   padding:0 1rem;
+  text-align: right;
 }
 .small-list-page .small-list-page-li .small-nav-item{
   list-style: none;
@@ -727,14 +728,15 @@ padding: 1rem;
 .small-list-page .small-list-page-li .small-nav-item .small-nav-link{
   text-decoration: none;
   color: #4fdbc8;
-  border-bottom: 1px solid #4FDBC8;
+  /* border-bottom: 1px solid #4FDBC8; */
 }
 .small-nav-item {
   color: #4fdbc8;
   font-weight: 700;
 }
 .small-nav-button{
-  padding: 1rem 0.5rem;
+  padding: 1rem;
+  text-align: right;
 }
 .small-btn{
   color: #FFFFFF;
