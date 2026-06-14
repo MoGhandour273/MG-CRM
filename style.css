@@ -1,5 +1,10 @@
 body{
-    background-color: #12131a;
+  background-color: #12131a;
+}
+
+*{
+  outline: 1px solid red;
+  box-sizing: border-box;
 }
 
 /* navbar */
@@ -271,7 +276,7 @@ font-weight: 700;
 
 .feature-section .icon p {
 color: #c4c5d5;
-width: 300px;
+width: 100%;
 height: 72px;
 }
 /* End Section 3  */
@@ -930,12 +935,12 @@ padding: 1rem;
     padding: 4rem 1rem;
   }
   .about-section h1 {
-    width: 400px;
+    width: 100%;
     margin: 6% 8%;
   }
 
   .about-section p {
-    width: 482px;
+    width: 100%;
   }
 
   /* ------------------- */
@@ -946,7 +951,7 @@ padding: 1rem;
     padding: 1rem;
   }
   .feature-section .icon h1 {
-    width: 346px;
+    width: 100%;
   }
 
   /* product */
@@ -1128,6 +1133,29 @@ padding: 1rem;
   /* ----------- */
   .card-list .card-item .card-link {
     margin: 0px 2%;
+  }
+
+
+  /* ------------ */
+  .navbar-supplier li button {
+    padding: 0rem 0.5rem;
+  }
+
+  /* ------------ */
+
+
+  .optimize-btn .sign-btn {
+    padding: 0.5rem;
+    margin: 0;
+  }
+
+  .optimize-btn .contant-btn {
+    padding: 0.5rem;
+    margin: 0 0 0 1rem;
+  }
+
+  .optimize-btn {
+    margin-top: 12%;
   }
 }
 
