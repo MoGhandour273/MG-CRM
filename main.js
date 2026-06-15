@@ -73,3 +73,14 @@ smallNavLinks.forEach(link => {
         menu.style.height = '0px';
     });
 });
+
+document.addEventListener("click", function (event) {
+
+    if (
+        !menu.contains(event.target) &&
+        !menuBtn.contains(event.target)
+    ) {
+        menu.style.height = '0px';
+    }
+
+});
