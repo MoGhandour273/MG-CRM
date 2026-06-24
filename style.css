@@ -1,9 +1,12 @@
+html{
+  margin: 10%;
+}
 body{
   background-color: #12131a;
 }
 
 *{
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -751,6 +754,13 @@ padding: 1rem;
 /* Media Queries */
 /* iPad Pro */
 @media (max-width: 1200px) {
+
+  /* navbar */
+  .nav-item {
+    padding: 0.375rem 0.5rem;
+  }
+
+  /* ------------- */
   .image-containter img {
     width: 33.125rem;
     height: 28.75rem;
@@ -832,6 +842,9 @@ padding: 1rem;
 
 /* iPad Air أو iPad Mini */
 @media (max-width: 992px) {
+  /* navbar */
+
+  /* -------------- */
   .list-page-li {
     gap: 0;
     padding: 0;
@@ -854,6 +867,7 @@ padding: 1rem;
   /* ---------------------- */
   .about-section p {
     margin: 0;
+    width: 100%;
   }
   /*--------------  */
   .feature-section .icon {
@@ -877,7 +891,7 @@ padding: 1rem;
     width: 100%;
   }
 
-  /* subblier */
+  /* supplier */
 
   .navbar-supplier {
     margin-left: 15%;
@@ -885,11 +899,12 @@ padding: 1rem;
 
   /* ----------- */
   .step-section .step-cards {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
   }
 
   .step-section .step-cards .step-card p {
-    width: 359px;
+    width: 100%;
+    margin: 0;
   }
 
   /* --------------- */
@@ -899,7 +914,7 @@ padding: 1rem;
 }
 
 /* Surface Duo أو Galaxy Fold */
-@media (max-width: 768px) {
+@media (max-width: 883px) {
   /* navbar */
   .main-navbar,.navbar{
     display: block;
@@ -938,7 +953,7 @@ padding: 1rem;
   }
   .about-section h1 {
     width: 100%;
-    margin: 6% 8%;
+    margin: auto;
   }
 
   .about-section p {
@@ -966,8 +981,7 @@ padding: 1rem;
   .navbar-supplier {
     gap: 1rem;
     padding: 0.5rem 0.5rem;
-    margin: 1rem;
-    margin-left: 0;
+    margin: auto;
   }
 
   .sup-content .image-description {
@@ -993,7 +1007,7 @@ padding: 1rem;
   }
 
   .step-section .step-cards .step-card p {
-    width: 85%;
+    width: 100%;
   }
 
   .step-section {
@@ -1012,7 +1026,7 @@ padding: 1rem;
   }
 
   .price-section .price-cards .card .popular {
-    left: 9rem;
+    left: 35%;
   }
 
   /* ------------------- */
@@ -1099,7 +1113,7 @@ padding: 1rem;
 
   /* ----------------- */
   .price-section .price-cards .card .popular {
-    left: 5rem;
+    left: 25%;
   }
 
     /* -------------- */
