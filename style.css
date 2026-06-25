@@ -1,5 +1,5 @@
 /* html{
-  margin: 10%;
+  margin: 1%;
 } */
 body{
   background-color: #12131a;
@@ -83,10 +83,11 @@ body{
     transition: 0.5s;
 }
 .nav-item .hover-link:hover {
-    background-color: rgba(79, 219, 200, 0.2);
+    /* background-color: rgba(79, 219, 200, 0.2);
     border-color: #4fdbc8;
     padding: 0 1rem ;
-    border-radius: 1rem;
+    border-radius: 1rem; */
+    color: #fbbf24;
 }
 
 .list-page .menue-page-btn{
@@ -810,7 +811,8 @@ padding: 1rem;
     font-size: 1rem;
   }
   .step-section .step-cards .step-card p {
-    width: 300px;
+    width: 90%;
+    margin: 0 0 0 auto;
   }
 
   /* ----------------------- */
@@ -909,7 +911,11 @@ padding: 1rem;
 
   /* --------------- */
   .price-section .price-cards {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+  }
+  .price-section .price-cards .card {
+    width: 90%;
+    height: auto;
   }
 }
 
@@ -1016,17 +1022,17 @@ padding: 1rem;
   /* --------------------------- */
 
   .price-section .price-cards {
-    grid-template-columns: repeat(1,1fr);
-    /* margin: 0 20%; */
+    grid-template-columns: repeat(2,1fr);
   }
   .price-section .price-cards .card {
-    margin: 0 10% 5% 10%;
-    width: 80%;
-    height: 95%;
+    width: 90%;
   }
 
   .price-section .price-cards .card .popular {
-    left: 35%;
+    left: 25%;
+  }
+  .premium-card{
+    margin: 0 50% !important;
   }
 
   /* ------------------- */
@@ -1112,6 +1118,18 @@ padding: 1rem;
   }
 
   /* ----------------- */
+  .price-section .price-cards {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .price-section .price-cards .card {
+    width: 65%;
+    margin: 4% auto !important;
+  }
+
+  .premium-card{
+    margin: 0 !important;
+  }
   .price-section .price-cards .card .popular {
     left: 25%;
   }
@@ -1158,8 +1176,15 @@ padding: 1rem;
   }
 
   /* ------------ */
+  .price-section .price-cards .card {
+    width: 90%;
+    margin: 2% auto!important;
+  }
 
-
+  .premium-card{
+    margin: 0 !important;
+  }
+  /* ---------------- */
   .optimize-btn .sign-btn {
     padding: 0.5rem;
     margin: 0;
